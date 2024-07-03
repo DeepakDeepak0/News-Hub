@@ -89,12 +89,15 @@ const ModeButton = document.querySelector('.modeBtn');
 const MainNav = document.querySelector('nav');
 const Body = document.querySelector('body');
 const NavItems = document.querySelector('.nav-items');
+const cardContent = document.querySelector('.card-content');
 
 function modeChange(){
 ModeButton.classList.toggle('activeMode1');
 MainNav.classList.toggle('activeMode2');
 Body.classList.toggle('activeMode3');
 NavItems.classList.toggle('activeMode4');
-ModeButton.classList.toggle('fa-toggle-on')
+ModeButton.classList.toggle('fa-toggle-on');
+cardContent.classList.toggle('activeMode5');
+
 
 }
