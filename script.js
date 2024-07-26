@@ -89,7 +89,7 @@ const ModeButton = document.querySelector('.modeBtn');
 const MainNav = document.querySelector('nav');
 const Body = document.querySelector('body');
 const NavItems = document.querySelector('.nav-items');
-const cardContent = document.querySelector('.card-content');
+const cardContent = document.getElementsByClassName('card-content');
 
 function modeChange(){
 ModeButton.classList.toggle('activeMode1');
